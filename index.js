@@ -5,7 +5,7 @@ dotenv.config();
 
 const app = express();
 const port = process.env.PORT || 80;
-
+//teste
 const transcriptSchema = new mongoose.Schema({
   canalId: String,
   abertoPor: String,
